@@ -1,0 +1,19 @@
+{
+  "slices": {
+    "YouTube": {
+      "default": {
+        "primary": {
+          "caption": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "youtubeid": {
+            "content": "CX25cnGb-IU"
+          }
+        }
+      }
+    }
+  }
+}
