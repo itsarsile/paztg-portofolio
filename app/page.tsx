@@ -1,9 +1,15 @@
 import '../styles/globals.css'
-import React from 'react'
+import Navbar from '../components/Navbar'
+import Hero from './Hero'
+import Reels from './Reels'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Navbar/>
+      <Hero/>
+      <Reels/>
+    </div>
   )
 }
 
