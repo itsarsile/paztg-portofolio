@@ -7,11 +7,16 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.4.6",
     "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.5",
+    "@mantine/core": "^5.10.0",
+    "@mantine/ds": "^5.10.0",
+    "@mantine/hooks": "^5.10.0",
+    "@mantine/next": "^5.10.0",
+    "@mantine/prism": "^5.10.0",
     "@next/font": "^13.1.1",
-    "framer-motion": "^8.2.0",
+    "@tabler/icons": "^1.119.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
