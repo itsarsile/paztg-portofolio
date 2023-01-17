@@ -17,6 +17,7 @@
     "@mantine/next": "^5.10.0",
     "@mantine/prism": "^5.10.0",
     "@next/font": "^13.1.1",
+    "@react-spring/web": "^9.6.1",
     "@tabler/icons": "^1.119.0",
     "framer-motion": "^8.4.3",
     "next": "latest",

@@ -27,9 +27,9 @@ export default function RootLayout({
     <html className={`${montserrat.variable} ${michroma.variable}`}>
       <head />
       <body>{children}</body>
-      <footer className='text-white flex flex-col justify-center items-center p-5 gap-1'>
+      <footer className='text-white flex  justify-between items-center p-5'>
         <img src="./logo-dark.svg" className="w-12"/>
-        <p className='font-michroma text-xs'>PaztG Design</p>
+        <p className='font-montserrat text-xs'>Copyright © 2023 All right reserved - PaztG Design</p>
       </footer>
     </html>
   )
