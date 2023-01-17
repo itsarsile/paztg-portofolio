@@ -7,7 +7,7 @@ export const videos = [
     {
         key: 'video-2',
         videoId: '1bU1FGZkT2s',
-        title: 'misobuns Stream Intro',
+        title: '【オリジナルMV】spiral tones / 律可 Mori Calliope - SEA Cover -【6 languages】',
     },
     {
         key: 'video-3',
@@ -43,6 +43,21 @@ export const videos = [
         key: 'video-9',
         videoId: 'MDl5Hj4_lfs',
         title: 'misobuns Stream Intro',
+    },
+    {
+        key: 'video-10',
+        videoId: '1BUOMxDbDBM',
+        title: '【MetanoiaLIVE Special ❆】Tokyo Winter Session / 東京ウインターセッション【HoneyWorks】',
+    },
+    {
+        key: 'video-11',
+        videoId: 'O-pxtCerfAI',
+        title: '【MetanoiaLIVE Special ❆】Tokyo Winter Session / 東京ウインターセッション【HoneyWorks】',
+    },
+    {
+        key: 'video-12',
+        videoId: 'LFq-daSrwDc',
+        title: '【MetanoiaLIVE Special ❆】Tokyo Winter Session / 東京ウインターセッション【HoneyWorks】',
     },
 
 ]
