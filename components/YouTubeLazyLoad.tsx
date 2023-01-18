@@ -22,15 +22,15 @@ export default function YouTubeLazyLoad({
                         allowFullScreen={true}></iframe>
                 </div>
             ) : (
-                <button type="button" onClick={() => setShowVideo(true)} className='relative aspect-video rounded-lg lg:w-full lg:h-full'>
+                <button type="button" onClick={() => setShowVideo(true)} className='aspect-video rounded-lg lg:w-full lg:h-full'>
                     <Image src={`https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`}
                         alt=""
                         loading="lazy"
                         width={1280}
                         height={720}
-                        className="relative w-96 lg:w-full lg:h-full"
+                        className=" w-96 lg:w-full lg:h-full"
                     />
-                    <img src="/play.svg" alt="" className='absolute top-[40%] left-[43%] w-12 lg:w-24 lg:top-[46%] lg:left-[46%]' />
+                    <img src="/play.svg" alt="" className='absolute top-[58%] left-[43%] w-12 lg:w-24 lg:top-[100%] lg:left-[46%] z-0' />
 
                 </button>
             )}

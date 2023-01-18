@@ -7,10 +7,10 @@ import Works from './Works'
 function Home() {
   return (
     <div>
-      <Navbar/>
       <Hero/>
       <Reels/>
       <Works />
+      
     </div>
   )
 }
