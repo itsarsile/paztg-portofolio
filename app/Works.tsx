@@ -1,6 +1,6 @@
 'use client';
-import Image from 'next/image';
 import {videos} from '../constants';
+import {motion} from 'framer-motion';
 
 const Works = () => {
   return (
@@ -8,17 +8,30 @@ const Works = () => {
         <h1 className="text-[30px] mb-12">
             Works
         </h1>
-        <div className='grid gap-3 sm:grid-rows-1 lg:grid-cols-3 max-w-7xl'>
+        <div className='grid sm:grid-rows-1 lg:grid-cols-3 max-w-7xl'>
           {videos.map((video) => (
-            <Image 
+            <motion.img 
+            whileHover={{ scale: 1.1 }}
+            whileTap={{scale: 1.0}}
             key={video.key}
             src={`https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`}
             alt=""
-            width={1280}
+            width="1280"
             height="720"
+            className='-mt-3'
             />
           ))}
         </div>
+
+        {/* <div className="flex">
+          {videos.map((video) =>(
+            <motion.img
+              src={`https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`}
+              alt=""
+              className='h-full'
+            />
+          ))}
+        </div> */}
     </div>
   )
 }
