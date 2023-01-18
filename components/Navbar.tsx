@@ -2,12 +2,18 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import {motion} from 'framer-motion';
+import {navVariants} from '../lib/motion'
 
 function Navbar() {
   return (
-    <nav className="sticky top-0 z-10 text-white flex flex-col justify-center items-center space-y-3 p-6 font-montserrat bg-neutral-900">
+    <motion.nav 
+    variants={navVariants}
+    initial="hidden"
+    whileInView="show"
+    className="sticky top-0 z-10 text-white flex flex-col justify-center items-center space-y-3 p-6 font-montserrat bg-neutral-900">
         <Link href="/">
-        <Image src="logo-dark.svg" alt="paztg-logo" width={48} height={48}/>
+          <Image src="logo-dark.svg" alt="paztg-logo" width={48} height={48}/>
         </Link>
         <ul className="flex gap-5 lg:gap-10 ">
             <li>
@@ -22,7 +28,7 @@ function Navbar() {
             </li>
             <li>CONTACT</li>
         </ul>
-    </nav>
+    </motion.nav>
   )
 }
 

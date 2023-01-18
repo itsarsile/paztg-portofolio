@@ -1,6 +1,5 @@
-import Navbar from '../components/Navbar'
 import Hero from './Hero'
-import Reels from './Reels'
+import Reels from '../sections/Reels'
 import Works from './Works'
 
 
@@ -10,7 +9,6 @@ function Home() {
       <Hero/>
       <Reels/>
       <Works />
-      
     </div>
   )
 }
