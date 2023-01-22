@@ -8,7 +8,7 @@ export default function YouTubeLazyLoad({ youtubeId = "CX25cnGb-IU" }) {
   return (
     <div>
       {showVideo ? (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <iframe
             width="1920"
             height="1080"
@@ -36,7 +36,7 @@ export default function YouTubeLazyLoad({ youtubeId = "CX25cnGb-IU" }) {
           <img
             src="/play.svg"
             alt=""
-            className=" top-[58%] left-[43%] w-12 lg:w-24 lg:top-[100%] lg:left-[46%] z-0"
+            className="absolute lg:top-[-55%] lg:right-[-46%] w-12 lg:w-24 z-0"
           />
         </button>
       )}
