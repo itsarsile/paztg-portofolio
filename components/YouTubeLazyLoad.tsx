@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function YouTubeLazyLoad({ youtubeId = "CX25cnGb-IU" }) {
   const [showVideo, setShowVideo] = useState(false);
@@ -32,11 +33,6 @@ export default function YouTubeLazyLoad({ youtubeId = "CX25cnGb-IU" }) {
             width={1280}
             height={720}
             className=" w-96 lg:w-full lg:h-full"
-          />
-          <img
-            src="/play.svg"
-            alt=""
-            className=" top-[58%] left-[43%] w-12 lg:w-24 lg:top-[100%] lg:left-[46%] z-0"
           />
         </button>
       )}
