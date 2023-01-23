@@ -21,7 +21,8 @@
     "framer-motion": "^8.4.3",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.57.1"
   },
   "devDependencies": {
     "@prismicio/types": "^0.2.7",
