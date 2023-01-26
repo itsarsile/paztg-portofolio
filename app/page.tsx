@@ -1,7 +1,6 @@
 import Hero from "./Hero";
 import Reels from "../sections/Reels";
 import Works from "./Works";
-import GlowWrapper from "../components/GlowWrapper";
 
 function Home() {
   return (
@@ -9,7 +8,6 @@ function Home() {
       <Hero />
       <Reels />
       <Works />
-      <GlowWrapper />
     </div>
   );
 }
