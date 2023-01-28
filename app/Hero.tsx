@@ -31,8 +31,10 @@ function Hero() {
       >
         <Image src="/arrow-down.svg" width={24} height={24} alt="arrow down"/>
       </motion.div>
-      
-      <p className="uppercase text-[30px]">2020 Show Reel</p>
+      <div className="text-center">
+      <p className="uppercase text-[30px] font-bold">2022 Show Reel</p>
+      <p className="text-sm">Click the image to play</p>
+      </div>
     </motion.section>
   )
 }

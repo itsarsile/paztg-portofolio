@@ -2,12 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-    background-color: #1B1C1E;
+  background-color: #1b1c1e;
 }
 
-.hero {
-    font-size: 48px;
+@layer utilities {
+  .underline-blue {
+    border-bottom: 2px solid #4684ff;
+  }
 }
 
+.gradient-1 {
+    background: rgb(136, 136, 136);
+    background: radial-gradient(
+      circle,
+      rgba(136, 136, 136, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(98, 98, 98, 1) 100%
+    );
+  }
