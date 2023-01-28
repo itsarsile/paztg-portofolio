@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 const Works = () => {
   return (
     <div className='flex justify-center flex-col items-center text-white font-montserrat mt-12 divide-y-8' id="works">
-        <h1 className="text-[30px] mb-12">
+        <h1 className="text-[30px] mb-12 underline-blue">
             Works
         </h1>
         <div className='grid sm:grid-rows-1 lg:grid-cols-3 max-w-7xl'>
