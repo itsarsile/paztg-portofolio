@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import Reels from "../sections/Reels";
+import Reels from "./Reels";
 import Works from "./Works";
 
 function Home() {

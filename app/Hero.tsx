@@ -8,11 +8,12 @@ function Hero() {
   return (
     <motion.section 
       variants={staggerContainer()}
-      initial="hidden"
+      initial="hidden"  
       whileInView="show"
       viewport={{once: false, amount: 0.25}}
       className="text-white flex flex-col justify-center -mt-12  items-center space-y-6 lg:space-y-12 font-montserrat h-[50vh] lg:h-[70vh]">
       
+
       <motion.h1 
         variants={textVariant(1.2)}
         className="text-3xl tracking-tighter font-michroma lg:text-7xl ">  

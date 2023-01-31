@@ -1,3 +1,4 @@
+'use client'
 import YouTubeLazyLoad from "../components/YouTubeLazyLoad"
 
 

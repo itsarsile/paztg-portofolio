@@ -7,8 +7,27 @@ body {
 }
 
 @layer utilities {
-  .underline-blue {
-    border-bottom: 2px solid #4684ff;
+  .underline-hover {
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+  }
+
+  .underline-hover::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3274f7;
+    transition: width 0.25s ease-out;
+  }
+
+  .underline-hover:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
   }
 }
 

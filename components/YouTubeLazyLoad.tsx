@@ -3,11 +3,11 @@ import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-export default function YouTubeLazyLoad({ youtubeId = "CX25cnGb-IU" }) {
+export default function YouTubeLazyLoad({ youtubeId }: {youtubeId?: string}) {
   const [showVideo, setShowVideo] = useState(false);
 
   return (
-    <div>
+    <div className="">
       {showVideo ? (
         <div className="flex justify-center items-center">
           <iframe
@@ -36,6 +36,7 @@ export default function YouTubeLazyLoad({ youtubeId = "CX25cnGb-IU" }) {
           />
         </button>
       )}
+      {/* <div className="gradient-01"/>  */}
     </div>
   );
 }

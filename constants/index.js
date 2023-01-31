@@ -61,3 +61,22 @@ export const videos = [
     },
 
 ]
+
+export const pagelinks = [
+    {
+        title: 'works',
+        url: '/works'
+    },
+    {
+        title: 'pricing',
+        url: '/pricing'
+    },
+    {
+        title: 'about',
+        url: 'about'
+    },
+    {
+        title: 'contact',
+        url: '/contact'
+    },
+]
