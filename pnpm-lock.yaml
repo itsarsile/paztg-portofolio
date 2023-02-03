@@ -16,6 +16,7 @@ specifiers:
   '@types/node': 18.11.3
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
+  '@vercel/analytics': ^0.1.8
   autoprefixer: ^10.4.12
   framer-motion: ^8.4.3
   next: latest
@@ -38,6 +39,7 @@ dependencies:
   '@mantine/prism': 5.10.0_3m53ouna3laykmqkiimzgz4i2m
   '@next/font': 13.1.2
   '@tabler/icons': 1.119.0_biqbaboplfbrettd7655fr4n2y
+  '@vercel/analytics': 0.1.8_react@18.2.0
   framer-motion: 8.4.3_biqbaboplfbrettd7655fr4n2y
   next: 13.1.6_23e7ztf2chqi3ri6onem3l5mii
   react: 18.2.0
@@ -2058,6 +2060,14 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+
+  /@vercel/analytics/0.1.8_react@18.2.0:
+    resolution: {integrity: sha512-PQrOI8BJ9qUiVJuQfnKiJd15eDjDJH9TBKsNeMrtelT4NAk7d9mBVz1CoZkvoFnHQ0OW7Xnqmr1F2nScfAnznQ==}
+    peerDependencies:
+      react: ^16.8||^17||^18
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@zag-js/element-size/0.3.0:
     resolution: {integrity: sha512-5/hEI+0c6ZNCx6KHlOS5/WeHsd6+I7gk7Y/b/zATp4Rp3tHirs/tu1frq+iy5BmfaG9hbQtfHfUJTjOcI5jnoQ==}
