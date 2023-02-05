@@ -14,16 +14,16 @@ function Navbar() {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className="sticky top-0 z-10 text-white flex flex-col justify-center items-center space-y-3 p-6 font-montserrat bg-neutral-900">
-      <ul className="flex font-bold items-center gap-5 lg:gap-10 ">
+      className="sticky uppercase top-0 z-10 text-white flex flex-col justify-center items-center space-y-3 p-6 font-montserrat bg-neutral-900">
+      <ul className="flex font-bold cursor-pointer items-center gap-5 lg:gap-10 ">
           <li>
             <Link href="#works" className="underline-hover">
               WORKS
             </Link>
           </li>
           <li>
-            <Link href="#pricing" className="underline-hover">
-              PRICING
+            <Link href="/about" className="underline-hover">
+              About
             </Link>
           </li>
           <li>
@@ -32,8 +32,8 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/about" className="underline-hover">
-              ABOUT
+            <Link href="#pricing" className="underline-hover">
+              pricing
             </Link>
           </li>
           <li>
