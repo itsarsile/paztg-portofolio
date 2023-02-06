@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useRef } from 'react';
 import AutoPlay from 'embla-carousel-autoplay';
+import useEmblaCarousel from 'embla-carousel-react';
 import {Carousel} from '@mantine/carousel'
 
 const Clients = () => {
@@ -13,31 +14,28 @@ const Clients = () => {
             Clients
         </h1>
       <Carousel
+      loop
       withControls={false}
       align="start"
       height={150}
       plugins={[autoplay.current]}
       slideSize="30%"
       slideGap="sm"
-      loop={true}
       >
         <Carousel.Slide>
-          <Image src="/vshojo.png" width="300" height="300" alt=""/>
+          <Image src="/vshojo.png" width="300" height="300" alt="" className='object-contain object-center'/>
         </Carousel.Slide>
         <Carousel.Slide>
-          <Image src="/vshojo.png" width="300" height="300" alt=""/>
+          <Image src="/idol.svg" width="300" height="300" alt="" className="object-contain object-center"/>
         </Carousel.Slide>
         <Carousel.Slide>
-          <Image src="/vshojo.png" width="300" height="300" alt=""/>
+          <Image src="/metanoia.svg" width="300" height="300" alt="" className='object-contain object-center'/>
         </Carousel.Slide>
         <Carousel.Slide>
-          <Image src="/vshojo.png" width="300" height="300" alt=""/>
+          <Image src="/prismproject.svg" width="300" height="300" alt="" className='invert object-contain object-center'/>
         </Carousel.Slide>
         <Carousel.Slide>
-          <Image src="/vshojo.png" width="300" height="300" alt=""/>
-        </Carousel.Slide>
-        <Carousel.Slide>
-          <Image src="/vshojo.png" width="300" height="300" alt=""/>
+          <Image src="/idol.svg" width="300" height="300" alt="" className="object-contain object-center"/>
         </Carousel.Slide>
       </Carousel>
     </div>
