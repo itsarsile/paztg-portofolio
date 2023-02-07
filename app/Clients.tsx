@@ -26,7 +26,7 @@ const Clients = () => {
           <Image src="/vshojo.png" width="300" height="300" alt="" className='object-contain object-center'/>
         </Carousel.Slide>
         <Carousel.Slide>
-          <Image src="/idol.svg" width="300" height="300" alt="" className="object-contain object-center"/>
+          <Image src="/hololive.svg" width="300" height="300" alt="" className="object-contain object-center"/>
         </Carousel.Slide>
         <Carousel.Slide>
           <Image src="/metanoia.svg" width="300" height="300" alt="" className='object-contain object-center'/>
